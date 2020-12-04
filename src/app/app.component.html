@@ -1,5 +1,28 @@
-<span>
-  <h6><i><input [(ngModel)]='name' type='text'></i></h6>
-  <p>Hi {{name}} Your Angular app is running!</p>
-</span>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h6><i><input [(ngModel)]='name' type='text'></i></h6>
+      <p>Hi {{name}} Your Angular app is running!</p>
+      <hr>
+      <!-- <app-servers></app-servers> -->
+      <!-- <div class='app-servers'></div> -->
+    </div>
+  </div>
+</div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <app-warningAlert></app-warningAlert>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <app-success-alert
+      ></app-success-alert>
+  </div>
+</div>
+</div>
